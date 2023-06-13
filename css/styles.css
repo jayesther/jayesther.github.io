@@ -1,38 +1,13 @@
 body {
-	font-family: Arial, sans-serif;
-  }
-  
-  h1 {
-	color: #333;
-  }
-  
-  .navbar {
-	margin-bottom: 20px;
-  }
-  
-  .container {
-	max-width: 800px;
-	margin: 0 auto;
-  }
-  
-  section {
-	padding: 20px 0;
-  }
-  
-  #home {
-	padding: 50px 0;
-	background: #f8f9fa;
-  }
-  
-  #about {
-	background: #e9ecef;
-  }
-  
-  #portfolio {
-	background: #f8f9fa;
-  }
-  
-  #contact {
-	background: #e9ecef;
-  }
-  
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 20px 0;
+    background: #f8f9fa;
+}
