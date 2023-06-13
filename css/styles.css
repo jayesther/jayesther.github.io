@@ -1,13 +1,78 @@
-body {
-    font-family: Arial, sans-serif;
-}
+	/* CSS */
+	@font-face {
+	font-family: 'Switzer';
+	src: url('https://fonts.cdnfonts.com/css/switzer') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	}
 
-.wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-}
+	body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #001F3F;  /* Navy background */
+	padding-bottom: 2%;
+	color: #d3d3d3;  /* Light Gray text color */
+	}
 
-.footer {
-    padding: 20px 0;
-    background: #f8f9fa;
-}
+	.display-2 {
+		font-size: 4rem;
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	.btn-lg,
+	.btn-block {
+		font-size: 2rem;
+		text-decoration: none;
+		background-color: #1f5b5c;
+		border: none;
+		padding: 30px;
+		margin: 10px 0;
+		width: 100%;
+	}
+
+
+	p.lead {
+	font-size: 48px;
+	line-height: 62px;
+	}
+
+	.container {
+	position: static;
+	width: 100vw;
+	height: 100%;
+	padding-top: 16%;
+	padding-bottom: 10%;
+	padding-left: 8%;
+	}
+
+	.wrapper {
+	max-width: 65%;
+	margin: 0 auto;
+	}
+
+
+
+	.link:hover, .btn:hover {
+	color: #9f915d;  /* Original hover color */
+	}
+
+	.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	background: #001F3F;  /* Navy background */
+	color: #d3d3d3;
+	}
+
+	/* Responsive */
+	@media (max-width: 991px) {
+	p.lead {
+		font-size: 36px;
+		line-height: 48px;
+	}
+	.wrapper {
+		width: 80%;
+	}
+
+	}
